@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Figma | Hem Bdr Pun |</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <div class="figma-app">
+    <div class="tab-bar">
+      <div class="container">
+        <div class="left">
+          <input
+            class="nav-input"
+            name="nav"
+            type="radio"
+            id="figma-app"
+            checked
+          />
+          <input class="nav-input" name="nav" type="radio" id="components" />
+          <input class="nav-input" name="nav" type="radio" id="add" />
+          <div class="circles-wrapper">
+            <div class="circle circle-red"></div>
+            <div class="circle circle-yellow"></div>
+            <div class="circle circle-green"></div>
+          </div>
+          <div class="icon">
+            <svg
+              width="36"
+              height="34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="18" cy="15" r="8" stroke="#8D8EA1" stroke-width="2" />
+              <path d="M18 11v4l2 2" stroke="#8D8EA1" stroke-width="2" />
+            </svg>
+          </div>
+          <div class="sections">
+            <label for="figma-app" checked>Figma App</label>
+            <label for="components">Components</label>
+            <label for="add">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="8"
+                  y1="12"
+                  x2="8"
+                  y2="4"
+                  stroke="#8D8EA1"
+                  stroke-width="2"
+                />
+                <line
+                  x1="4"
+                  y1="8"
+                  x2="12"
+                  y2="8"
+                  stroke="#8D8EA1"
+                  stroke-width="2"
+                />
+              </svg>
+            </label>
+          </div>
+        </div>
+        <div class="right">
+            <div class="toggle-area">
+                <p>Switch Theme</p>
+                <label class="switch-theme">
+                  <input type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="tool-bar">
+      <div class="left">
+        <div class="menu">
+          <button class="icon-button inline">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="4"
+                y1="7"
+                x2="20"
+                y2="7"
+                stroke="currentcolor"
+                stroke-width="2"
+              />
+              <line
+                x1="4"
+                y1="12"
+                x2="20"
+                y2="12"
+                stroke="currentcolor"
+                stroke-width="2"
+              />
+              <line
+                x1="4"
+                y1="17"
+                x2="20"
+                y2="17"
+                stroke="currentcolor"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <nav>
+            <div class="input-field">
+                <input type="text" placeholder="Search..."> </input>
+                <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="5" cy="5" r="4" stroke="#8D8EA1" stroke-width="2"/>
+                  <line x1="10.2929" y1="10.7071" x2="8.29289" y2="8.70711" stroke="#8D8EA1" stroke-width="2"/>
+                  </svg>
+            </div>
+            
+            <a href="#">File</a>
+            <a href="#">Edit</a>
+            <a href="#">View</a>
+            <a href="#">Object</a>
+            <a href="#">Vector</a>
+            <a href="#">Text</a>
+            <a href="#">Arrange</a>
+            <hr></hr>
+            <a href="#">Plugins</a>
+            <a href="#">Integrations</a>
+            <a href="#">Preferences</a>
+            <a href="#">Libraries</a>
+            <hr></hr>
+            <a href="#">Help and Account</a>
+          </nav>
+        </div>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 5L9 18L12.5 13.5L17.5 12L6 5Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="6"
+              y1="8"
+              x2="4"
+              y2="8"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="6"
+              y1="16"
+              x2="4"
+              y2="16"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="20"
+              y1="8"
+              x2="18"
+              y2="8"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="20"
+              y1="16"
+              x2="18"
+              y2="16"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="8"
+              y1="6"
+              x2="8"
+              y2="4"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="16"
+              y1="6"
+              x2="16"
+              y2="4"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="8"
+              y1="20"
+              x2="8"
+              y2="18"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="16"
+              y1="20"
+              x2="16"
+              y2="18"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <rect
+              x="8"
+              y="8"
+              width="8"
+              height="8"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="15"
+              y="15"
+              width="14"
+              height="14"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path d="M42 41V34L35 41H42Z" fill="white" fill-opacity="0.2" />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M42 42V35L35 42H42Z" fill="white" fill-opacity="0.2" />
+            <path
+              d="M17.125 24.125L15.625 15.125L24.625 16.625L27.625 22.625L23.125 27.125L17.125 24.125Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M21.9179 21.3321L15.6679 15.0821"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="24.6679"
+              y1="30.1679"
+              x2="30.6679"
+              y2="24.1679"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="6"
+              y1="9"
+              x2="6"
+              y2="7"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="18"
+              y1="9"
+              x2="18"
+              y2="7"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="12"
+              y1="18"
+              x2="12"
+              y2="8"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="5"
+              y1="6"
+              x2="19"
+              y2="6"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <line
+              x1="9"
+              y1="19"
+              x2="15"
+              y2="19"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 14.3571H15V27.2143H18.5V30.9643L23.5 27.2143H30V14.3571Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <circle cx="30" cy="15.2143" r="5" fill="#F2321E" />
+          </svg>
+        </button>
+        <svg
+          class="line"
+          width="1"
+          height="26"
+          viewBox="0 0 1 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="0.5" x2="0.5" y2="26" stroke="currentcolor" />
+        </svg>
+        <button class="icon-button">
+          <svg
+            width="18"
+            height="19"
+            viewBox="0 0 18 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 5.07854V13.1571M5 15.1767H13M15 13.1571V5.07854M13 3.05891H5"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M5 3.05891C5 4.18897 4.09538 5.08836 3 5.08836C1.90462 5.08836 1 4.18897 1 3.05891C1 1.92884 1.90462 1.02945 3 1.02945C4.09538 1.02945 5 1.92884 5 3.05891Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M17 3.05891C17 4.18897 16.0954 5.08836 15 5.08836C13.9046 5.08836 13 4.18897 13 3.05891C13 1.92884 13.9046 1.02945 15 1.02945C16.0954 1.02945 17 1.92884 17 3.05891Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M5 15.1767C5 16.3068 4.09538 17.2062 3 17.2062C1.90462 17.2062 1 16.3068 1 15.1767C1 14.0467 1.90462 13.1473 3 13.1473C4.09538 13.1473 5 14.0467 5 15.1767Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M17 15.1767C17 16.3068 16.0954 17.2062 15 17.2062C13.9046 17.2062 13 16.3068 13 15.1767C13 14.0467 13.9046 13.1473 15 13.1473C16.0954 13.1473 17 14.0467 17 15.1767Z"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 12.1178L12 4.03927L3.99994 12.1178L12 20.1964L13.5 18.6816"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path
+              d="M11 11.108L17 16.662V20.1964"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+            <path d="M11 15.1473V11.108H15" stroke="#E1E2EA" stroke-width="2" />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 12.1178C19 16.0364 15.8568 19.1964 12 19.1964C8.1432 19.1964 5 16.0364 5 12.1178C5 8.19921 8.1432 5.03927 12 5.03927C15.8568 5.03927 19 8.19921 19 12.1178Z"
+              stroke="#3ED67E"
+              stroke-width="2"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 19.0658C10.3912 17.669 12 15.0582 12 12.068C12 9.07784 10.3912 6.46708 8 5.07026C5.6088 6.46708 4 9.07784 4 12.068C4 15.0582 5.6088 17.669 8 19.0658Z"
+              fill="#3ED67E"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M24 14H14V24.0982H20V30.1571H30V20.0589H24V14Z"
+              fill="#3ED67E"
+            />
+            <path
+              d="M42 41.9705V34.9018L35 41.9705H42Z"
+              fill="white"
+              fill-opacity="0.2"
+            />
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 4V17H20" stroke="currentcolor" stroke-width="2" />
+            <path d="M17 20V7H4" stroke="currentcolor" stroke-width="2" />
+            <line
+              x1="7.29289"
+              y1="16.2929"
+              x2="19.3137"
+              y2="4.27208"
+              stroke="currentcolor"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="right">
+        <button class="icon-button">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M15 1C7.26801 1 1 7.26801 1 15C1 22.732 7.26801 29 15 29C22.732 29 29 22.732 29 15C29 11.4494 27.6783 8.20758 25.5 5.73961"
+              stroke="url(#paint0_angular)"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <circle cx="14.9995" cy="15" r="11" fill="url(#pattern0)" />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0" transform="scale(0.003125)" />
+              </pattern>
+              <radialGradient
+                id="paint0_angular"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(15 15) rotate(-67.8906) scale(15.1112)"
+              >
+                <stop stop-color="#24FFFF" />
+                <stop offset="1" stop-color="#7720FF" />
+              </radialGradient>
+              <image
+                id="image0"
+                width="320"
+                height="320"
+                href="https://www.upwork.com/profile-portraits/c1MhFY4Vp74yebN6pQJS8IWxCD4PbzH2txsNYWoIFuGXSbjfi2ChFmhunJUCqrMD0X"
+              />
+            </defs>
+          </svg>
+        </button>
+        <button class="icon-button">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="14" cy="14" r="14" fill="#1ABDFF" />
+            <path
+              d="M14.8 15.875C11.16 15.875 8.08333 17.9583 7 19C7.65 13.375 12.4167 12.125 14.8 11.5V9L20 14L14.8 18.375V15.875Z"
+              fill="white"
+            />
+          </svg>
+          </button>
+        <svg
+          class="line right"
+          width="1"
+          height="26"
+          viewBox="0 0 1 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="0.5" x2="0.5" y2="26" stroke="#161724" />
+        </svg>
+        <button class="icon-button">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0C21.732 0 28 6.26801 28 14Z" fill="#33354A"/>
+              <path d="M19 14L11.5 18.3301V9.66987L19 14Z" fill="white"/>
+              </svg>              
+        </button>
+        <button class="icon-button">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="14" fill="#33354A"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M22 27C26.5714 27 30 23.25 30 22C30 20.75 26.5714 17 22 17C17.4286 17 14 20.75 14 22C14 23.25 17.4286 27 22 27ZM22 25C23.6569 25 25 23.6569 25 22C25 20.3431 23.6569 19 22 19C20.3431 19 19 20.3431 19 22C19 23.6569 20.3431 25 22 25Z" fill="white"/>
+              </svg>
+              
+        </button>
+        <div class="zoom-input">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="7" cy="7" r="4" stroke="#8D8EA1" stroke-width="2"/>
+              <line x1="12.2929" y1="12.7071" x2="10.2929" y2="10.7071" stroke="#8D8EA1" stroke-width="2"/>
+              </svg>
+            <input type="text" placeholder="100%">
+        </div>
+        
+      </div>
+    </div>
+    <div class="app-content">
+      <div class="side-bar">
+        <ul class="collapsible-accordion">
+          <li>
+            <div class="collapsible-header">
+                <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                  </svg>
+                </span>
+              <p>1.Figma app</p>
+            </div>
+            <div class="collapsible-body">
+              <ul class="collapsible-content">
+                <li>
+                  <div class="collapsible-sub-header">
+                      <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                        </svg>
+                      </span>
+                      <span class="folder">
+                        <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2z" fill="url(#paint0_linear)"/><path d="M0 1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1H0V1z" fill="url(#paint1_linear)"/><defs><linearGradient id="paint0_linear" x1="1" y1="3.5" x2="14.157" y2="6.891" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient><linearGradient id="paint1_linear" x1=".875" y1=".273" x2="5.711" y2="6.272" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient></defs></svg>
+                      </span>
+                      <span>Header</span>
+                  </div>
+                  <div class="collapsible-body"></div>
+                </li>
+                <li>
+                    <div class="collapsible-sub-header">
+                        <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                          </svg>
+                        </span>
+                        <span class="folder">
+                          <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2z" fill="url(#paint0_linear)"/><path d="M0 1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1H0V1z" fill="url(#paint1_linear)"/><defs><linearGradient id="paint0_linear" x1="1" y1="3.5" x2="14.157" y2="6.891" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient><linearGradient id="paint1_linear" x1=".875" y1=".273" x2="5.711" y2="6.272" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient></defs></svg>
+                        </span>
+                        <span>Sub header</span>
+                    </div>
+                    <div class="collapsible-body">
+                      <ul class="collapsible-sub-content">
+                        <li>
+                            <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <line x1="6" y1="9" x2="6" y2="7" stroke="#4D4F60" stroke-width="2"/>
+                              <line x1="18" y1="9" x2="18" y2="7" stroke="#4D4F60" stroke-width="2"/>
+                              <line x1="12" y1="18" x2="12" y2="8" stroke="#4D4F60" stroke-width="2"/>
+                              <line x1="5" y1="6" x2="19" y2="6" stroke="#4D4F60" stroke-width="2"/>
+                              <line x1="9" y1="19" x2="15" y2="19" stroke="#4D4F60" stroke-width="2"/>
+                              </svg>
+                            </span>
+                            <span>Title</span>  
+                        </li>
+                        <li class="content-wrapper">
+                          <span class="list-content-left">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="6" y1="9" x2="6" y2="7" stroke="#4D4F60" stroke-width="2"/>
+                                <line x1="18" y1="9" x2="18" y2="7" stroke="#4D4F60" stroke-width="2"/>
+                                <line x1="12" y1="18" x2="12" y2="8" stroke="#4D4F60" stroke-width="2"/>
+                                <line x1="5" y1="6" x2="19" y2="6" stroke="#4D4F60" stroke-width="2"/>
+                                <line x1="9" y1="19" x2="15" y2="19" stroke="#4D4F60" stroke-width="2"/>
+                                </svg>
+                              </span>
+                              <span>Sub title</span>
+                            </span>
+                              <span class="list-content-right">
+                                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 7H13V14H3V7Z" fill="#515367"/>
+                                    <path d="M5 7V4C5 2.89543 6.34315 2 8 2C9.65685 2 11 2.89543 11 4V7" stroke="#515367" stroke-width="2"/>
+                                    </svg>                                    
+                              </span>
+                        </li>
+                        <li class="content-wrapper">
+                            <span class="list-content-left">
+                          <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="5.29289" y1="18.2929" x2="18.0208" y2="5.56497" stroke="#D5D7E8" stroke-width="2"/>
+                                </svg>                                
+                          </span>
+                          <span>Line</span>
+                        </span>
+                          <span class="list-content-right">
+                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 13C12.5714 13 16 9.25 16 8C16 6.75 12.5714 3 8 3C3.42857 3 0 6.75 0 8C0 9.25 3.42857 13 8 13ZM8 11C9.65686 11 11 9.65686 11 8C11 6.34314 9.65686 5 8 5C6.34314 5 5 6.34314 5 8C5 9.65686 6.34314 11 8 11Z" fill="#515367"/>
+                                </svg>      
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3.99994" y="12" width="11.3137" height="11.3137" transform="rotate(-45 3.99994 12)" stroke="#BB6BD9" stroke-width="2"/>
+                                </svg>                                
+                          </span>
+                          <span class="font-color">Elements/Logo</span>
+                        </li>
+                        <li>
+                          <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8.99997" y="7" width="4.24264" height="4.24264" transform="rotate(-45 8.99997 7)" fill="#713588" stroke="#BB6BD9" stroke-width="2"/>
+                                <rect x="3.99997" y="12" width="4.24264" height="4.24264" transform="rotate(-45 3.99997 12)" fill="#713588" stroke="#BB6BD9" stroke-width="2"/>
+                                <rect x="14" y="12" width="4.24264" height="4.24264" transform="rotate(-45 14 12)" fill="#713588" stroke="#BB6BD9" stroke-width="2"/>
+                                <rect x="8.99997" y="17" width="4.24264" height="4.24264" transform="rotate(-45 8.99997 17)" fill="#713588" stroke="#BB6BD9" stroke-width="2"/>
+                                </svg>                                
+                          </span>
+                          <span class="font-color">Buttons - CTA</span>
+                        </li>
+                        <li>
+                          <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="5" width="14" height="14" stroke="#4D4F60" stroke-width="2"/>
+                                </svg>                                
+                          </span>
+                          <span>Background</span>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-sub-header">
+                        <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                          </svg>
+                        </span>
+                        <span class="folder">
+                          <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2z" fill="url(#paint0_linear)"/><path d="M0 1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1H0V1z" fill="url(#paint1_linear)"/><defs><linearGradient id="paint0_linear" x1="1" y1="3.5" x2="14.157" y2="6.891" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient><linearGradient id="paint1_linear" x1=".875" y1=".273" x2="5.711" y2="6.272" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient></defs></svg>
+                        </span>
+                        <span>Content</span>
+                    </div>
+                    <div class="collapsible-body"></div>
+                </li>
+                <li>
+                    <div class="collapsible-sub-header">
+                        <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                          </svg>
+                        </span>
+                        <span class="folder">
+                          <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2z" fill="url(#paint0_linear)"/><path d="M0 1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1H0V1z" fill="url(#paint1_linear)"/><defs><linearGradient id="paint0_linear" x1="1" y1="3.5" x2="14.157" y2="6.891" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient><linearGradient id="paint1_linear" x1=".875" y1=".273" x2="5.711" y2="6.272" gradientUnits="userSpaceOnUse"><stop stop-color="#5492FF"/><stop offset="1" stop-color="#545EFF"/></linearGradient></defs></svg>
+                        </span>
+                        <span>Footer</span>
+                    </div>
+                    <div class="collapsible-body"></div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+              <div class="collapsible-header">
+                  <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                    </svg>
+                  </span>
+                  <p>2.Logo</p>
+                </div>
+                <div class="collapsible-body">
+                  <ul class="collapsible-content">
+                  </ul>
+                </div>
+          </li>
+          <li>
+              <div class="collapsible-header">
+                  <span class="arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 6L8 10.5L12.5 6" stroke="#515367" stroke-width="2"/>
+                    </svg>
+                  </span>
+                  <p>3.Icons</p>
+                </div>
+                <div class="collapsible-body">
+                  <ul class="collapsible-content">
+                  </ul>
+                </div>
+          </li>
+
+        </ul>
+        
+      </div>
+      <div class="content">
+        <div class="content-area-wrapper">
+        <p>2.Logo</p>
+        <div class="content-area"> 
+          <div class="visual-area">
+                <svg viewBox="0 0 558 490" fill="none" xmlns="http://www.w3.org/2000/svg"><circle r="49" transform="matrix(-1 0 0 1 441 245)" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M441 98h49v98h-98V98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM539 98h-49v49h49V98zm49 49v49h-49v-49h49zM49 98h49v98H0V98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M98 147c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49z" fill="currentcolor"/><circle r="49" transform="matrix(-1 0 0 1 441 49)" fill="currentcolor"/><circle r="25" transform="matrix(-1 0 0 1 441 147)" fill="currentcolor"/><circle r="49" transform="matrix(-1 0 0 1 539 49)" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M245 0h49v98h-98V0h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM343 0h49v98h-98V0h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M49 0H0v49h49V0zM294 0h-98v49h98V0zM146 49H97v49h49V49z" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M147 0h49v98H98V0h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM441 392h49v98h-98v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M490 441c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49z" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M245 392h49v98h-98v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M294 441c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49zM0 441c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49z" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M147 392h49v98H98v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM539 196h49v98h-98v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M588 294h-98v49h98v-49zM588 441h-98v49h98v-49z" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M98 196h49v49h49v49H98v-98z" fill="currentcolor"/><path d="M196 343H98v49h98v-49zM49 196H0v49h49v-49zM98 441H0v49h98v-49z" fill="currentcolor"/><path d="M98 343c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49z" fill="currentcolor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M49 196h49v98H0v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM49 294h49v98H0v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49zM441 294h49v98h-98v-98h49zm0 0c-27.062 0-49 21.938-49 49s21.938 49 49 49 49-21.938 49-49-21.938-49-49-49z" fill="currentcolor"/><path d="M294 343c0 27.062 21.938 49 49 49s49-21.938 49-49-21.938-49-49-49-49 21.938-49 49zM441 196h-49v49h49z" fill="currentcolor"/><path fill="currentcolor" d="M392 343h-49v49h49zM490 0h-49v49h49zM343 49h-49v49h49zM441 441h-49v49h49zM343 391h-49v49h49zM245 441h-49v49h49z"/><path fill="currentcolor" d="M49 441H0v49h49z"/><path d="M392 147c0-27.062-21.938-49-49-49h-98c-27.062 0-49 21.938-49 49s21.938 49 49 49h98c27.062 0 49-21.938 49-49z" fill="#F2321E"/><path d="M392 147c0-27.062-21.938-49-49-49h-49v98h49c27.062 0 49-21.938 49-49z" fill="#FF6C5C"/><circle r="49" transform="matrix(-1 0 0 1 343 245)" fill="#1ABDFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M245 392c-27.062 0-49-21.938-49-49s21.938-49 49-49h49v49c0 27.062-21.938 49-49 49z" fill="#3ED67E"/><path fill-rule="evenodd" clip-rule="evenodd" d="M244 196h50v98h-50c-27.062 0-49-21.938-49-49s21.938-49 49-49z" fill="#943FFF"/></svg>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="inspector">
+          <input
+          class="nav-inspector"
+          name="nav-inspector"
+          type="radio"
+          id="design"
+          checked
+        />
+        <input
+            class="nav-input"
+            name="nav-inspector"
+            type="radio"
+            id="prototype"
+          />
+          <input
+            class="nav-inspector"
+            name="nav-inspector"
+            type="radio"
+            id="code"
+          />
+          <input
+          class="nav-inspector"
+          name="nav-inspector"
+          type="radio"
+          id="right-arrow"
+          />
+        <div class="inspector-sections">
+          <div class="wrapper">
+            <label for="design" checked>Design</label>
+            <label for="prototype" checked>Prototype</label>
+            <label for="code" checked>Code</label>
+            <label for="right-arrow" checked>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.75 12.75L10.25 8.25L5.75 3.75" stroke="#3C3E52" stroke-width="2"/>
+                  </svg>                  
+            </label>
+          </div>
+        </div>
+        <div class="inspector-tools">
+          <div class="wrapper">
+            <button class="inspector-tool-item">
+                <svg class="dark-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="6" y1="20" x2="6" y2="4" stroke="currentcolor" stroke-width="2"/>
+                  <line x1="9" y1="8" x2="20" y2="8" stroke="currentcolor" stroke-width="4"/>
+                  <line x1="9" y1="14" x2="16" y2="14" stroke="currentcolor" stroke-width="4"/>
+                  </svg>
+                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="dark-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="12" y1="20" x2="12" y2="4" stroke="currentcolor" stroke-width="2"/>
+                  <line x1="5" y1="8" x2="19" y2="8" stroke="currentcolor" stroke-width="4"/>
+                  <line x1="7" y1="14" x2="17" y2="14" stroke="currentcolor" stroke-width="4"/>
+                  </svg>
+                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="dark-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="-1" x2="16" y2="-1" transform="matrix(0 -1 -1 0 17 20)" stroke="currentcolor" stroke-width="2"/>
+                  <line y1="-2" x2="11" y2="-2" transform="matrix(-1 0 0 1 15 10)" stroke="currentcolor" stroke-width="4"/>
+                  <line y1="-2" x2="7" y2="-2" transform="matrix(-1 0 0 1 15 16)" stroke="currentcolor" stroke-width="4"/>
+                  </svg>
+                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="dark-item"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="-1" x2="16" y2="-1" transform="matrix(-1 0 0 1 20 7)" stroke="currentcolor" stroke-width="2"/>
+                  <line y1="-2" x2="11" y2="-2" transform="matrix(0 1 1 0 10 9)" stroke="currentcolor" stroke-width="4"/>
+                  <line y1="-2" x2="7" y2="-2" transform="matrix(0 1 1 0 16 9)" stroke="currentcolor" stroke-width="4"/>
+                  </svg>
+                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="dark-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="20" y1="12" x2="4" y2="12" stroke="currentcolor" stroke-width="2"/>
+                  <line x1="8" y1="19" x2="8" y2="5" stroke="currentcolor" stroke-width="4"/>
+                  <line x1="14" y1="17" x2="14" y2="7" stroke="currentcolor" stroke-width="4"/>
+                  </svg>
+                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="dark-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="20" y1="18" x2="4" y2="18" stroke="currentcolor" stroke-width="2"/>
+                  <line x1="8" y1="15" x2="8" y2="4" stroke="currentcolor" stroke-width="4"/>
+                  <line x1="14" y1="15" x2="14" y2="8" stroke="currentcolor" stroke-width="4"/>
+                  </svg>                  
+            </button>
+            <button class="inspector-tool-item">
+                <svg class="light-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="-1" x2="16" y2="-1" transform="matrix(0 -1 -1 0 17 20)" stroke="currentcolor" stroke-width="2"/>
+                  <line y1="-1" x2="16" y2="-1" transform="matrix(0 -1 -1 0 5 20)" stroke="currentcolor" stroke-width="2"/>
+                  <line x1="12" y1="15" x2="12" y2="9" stroke="currentcolor" stroke-width="4"/>
+                  </svg>                  
+                </button>
+                <button class="inspector-tool-item">
+                    <svg class="light-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line y1="-1" x2="16" y2="-1" transform="matrix(-1 0 0 1 20 7)" stroke="currentcolor" stroke-width="2"/>
+                      <line y1="-1" x2="16" y2="-1" transform="matrix(-1 0 0 1 20 19)" stroke="currentcolor" stroke-width="2"/>
+                      <line x1="15" y1="12" x2="9" y2="12" stroke="currentcolor" stroke-width="4"/>
+                      </svg>
+                      
+                </button>
+          </div>
+        </div>
+        <div class="inspector-inputs">
+          <div class="wrapper">
+          <div class="left">
+          <div class="input-wrapper">
+            <p>X</p>
+            <input type="text" placeholder="621">
+          </div>
+          <div class="input-wrapper">
+            <p>Y</p>
+            <input type="text" placeholder="412">
+          </div>
+          <div class="input-wrapper" >
+            <p>W</p>
+            <input type="text" placeholder="98">
+          </div>
+          <div class="input-wrapper">
+            <p>H</p>
+            <input type="text" placeholder="98">
+          </div>
+          <div class="input-wrapper">
+            <p>R</p>
+            <input type="text" placeholder="0º">
+          </div>
+        </div>
+        <div class="right">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 6V5C5 3.34315 6.34315 2 8 2C9.65685 2 11 3.34315 11 5V6" stroke="#8D8EA1" stroke-width="2"/>
+              <path d="M5 10V11C5 12.6569 6.34315 14 8 14C9.65685 14 11 12.6569 11 11V10" stroke="#8D8EA1" stroke-width="2"/>
+              <line x1="8" y1="12" x2="8" y2="4" stroke="#8D8EA1" stroke-width="2"/>
+              </svg>
+              
+        </div>
+      </div>
+        </div>
+        <div class="inspector-constraints">
+          <div class="wrapper">
+              <p class="inspector-header">CONSTRAINTS</p>
+              <div class="constraints-wrapper">
+                <div class="left-area">
+                    <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="65" height="65" rx="2.5" stroke="#4D4F60"/>
+                      <rect x="20.5" y="20.5" width="25" height="25" rx="0.5" stroke="#4D4F60" stroke-miterlimit="16" stroke-linecap="square" stroke-dasharray="4 4"/>
+                      <line x1="33" y1="61" x2="33" y2="51" stroke="#4D4F60" stroke-width="4"/>
+                      <line x1="33" y1="15" x2="33" y2="5" stroke="#3ED67E" stroke-width="4"/>
+                      <line x1="33" y1="39" x2="33" y2="27" stroke="#4D4F60" stroke-width="2"/>
+                      <line x1="5" y1="32" x2="15" y2="32" stroke="#3ED67E" stroke-width="4"/>
+                      <line x1="27" y1="33" x2="39" y2="33" stroke="#4D4F60" stroke-width="2"/>
+                      <line x1="51" y1="32" x2="61" y2="32" stroke="#4D4F60" stroke-width="4"/>
+                      </svg>  
+                </div>
+                <div class="right-area">
+                  <div class="first-constraint">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="4" y1="8" x2="12" y2="8" stroke="#8D8EA1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 8L4.5 5.5V10.5L2 8Z" fill="#8D8EA1"/>
+                        <path d="M13.5 8L11 5.5V10.5L13.5 8Z" fill="#8D8EA1"/>
+                      </svg>
+                      <div class="styled-select">
+                      <select class="styled-select">
+                          <option >Left</option>
+                          <option >Right</option>
+                      </select>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 10L4.5359 6.25L11.4641 6.25L8 10Z" fill="#8D8EA1"/>
+                        </svg>                          
+                    </div>
+                  </div>
+                  <div class="second-constraint">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="8" y1="12" x2="8" y2="4" stroke="#8D8EA1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 14L5.5 11.5H10.5L8 14Z" fill="#8D8EA1"/>
+                        <path d="M8 2.5L5.5 5L10.5 5L8 2.5Z" fill="#8D8EA1"/>
+                        </svg>
+                        <div class="styled-select">
+                      <select class="styled-select">
+                        <option >Top</option>
+                        <option >Bottom</option>
+                      </select> 
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 10L4.5359 6.25L11.4641 6.25L8 10Z" fill="#8D8EA1"/>
+                        </svg>  
+                      </div>                       
+                    </div>
+                </div>           
+              </div>
+            </div>
+        </div>
+        <div class="inspector-layer">
+          <div class="wrapper">
+          <p class="inspector-header">LAYER</p>
+          <div class="layer-wrapper">
+          <div class="styled-select">
+          <select class="styled-select">
+              <option >Pass Through</option>
+              <option ></option>
+          </select>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 10L4.5359 6.25L11.4641 6.25L8 10Z" fill="#8D8EA1"/>
+            </svg>            
+        </div>
+          <input type="text" placeholder="100%">
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 10C12.5715 10 16 6.25 16 5C16 3.75 12.5715 0 8 0C3.42847 0 0 3.75 0 5C0 6.25 3.42847 10 8 10ZM8 8C9.65674 8 11 6.65686 11 5C11 3.34314 9.65674 2 8 2C6.34326 2 5 3.34314 5 5C5 6.65686 6.34326 8 8 8Z" fill="#4D4F60"/>
+          </svg>
+        </div>
+        </div>
+        </div>
+        <div class="inspector-fill">
+          <div class="wrapper">
+          <div class="header">
+              <p class="inspector-header">FILL</p>
+              <div class="fill-icons">
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="4" y1="8.53333" x2="12" y2="8.53333" stroke="#4D4F60" stroke-width="2"/>
+                    </svg>                    
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="8" y1="12.5333" x2="8" y2="4.53333" stroke="#4D4F60" stroke-width="2"/>
+                    <line x1="4" y1="8.53333" x2="12" y2="8.53333" stroke="#4D4F60" stroke-width="2"/>
+                    </svg>                    
+              </div>
+          </div>
+          
+        <div class="fill-content">
+            <div class="color-input-area">
+              <input type="text" placeholder="#3ED67E">
+            </div>
+            <input class="input-percent" type="text" placeholder="100%">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 9.27273C3.5 8.74889 3.76128 7.99741 4.22449 7.11006C4.67793 6.24145 5.28799 5.31032 5.90622 4.44883C6.52313 3.5892 7.14108 2.80868 7.60537 2.24253C7.75476 2.06036 7.88804 1.90063 8 1.76788C8.11196 1.90063 8.24524 2.06036 8.39463 2.24253C8.85892 2.80868 9.47687 3.5892 10.0938 4.44883C10.712 5.31032 11.3221 6.24145 11.7755 7.11006C12.2387 7.99741 12.5 8.74889 12.5 9.27273C12.5 11.5813 10.5121 13.5 8 13.5C5.48792 13.5 3.5 11.5813 3.5 9.27273Z" stroke="#4D4F60"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.36328 11.0455C4.10498 9.31299 5.90137 8.09088 7.99976 8.09088C10.0981 8.09088 11.8945 9.31299 12.6362 11.0455C11.8945 12.7779 10.0981 14 7.99976 14C5.90137 14 4.10498 12.7779 3.36328 11.0455Z" fill="#4D4F60"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 13C12.5715 13 16 9.25 16 8C16 6.75 12.5715 3 8 3C3.42847 3 0 6.75 0 8C0 9.25 3.42847 13 8 13ZM8 11C9.65674 11 11 9.65686 11 8C11 6.34314 9.65674 5 8 5C6.34326 5 5 6.34314 5 8C5 9.65686 6.34326 11 8 11Z" fill="#4D4F60"/>
+              </svg>                   
+          </div>
+        </div>
+        </div>
+        <div class="stroke">
+          <div class="wrapper">
+            <div class="header">
+                <p class="inspector-header">STROKE</p>
+                <div class="fill-icons">                  
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="8" y1="12.5333" x2="8" y2="4.53333" stroke="#4D4F60" stroke-width="2"/>
+                      <line x1="4" y1="8.53333" x2="12" y2="8.53333" stroke="#4D4F60" stroke-width="2"/>
+                      </svg>                    
+                </div>
+            </div>
+        </div>
+        <div class="effects">
+          <div class="wrapper">
+            <div class="header">
+                <p class="inspector-header">EFFECTS</p>
+                <div class="fill-icons">                 
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="8" y1="12.5333" x2="8" y2="4.53333" stroke="#4D4F60" stroke-width="2"/>
+                      <line x1="4" y1="8.53333" x2="12" y2="8.53333" stroke="#4D4F60" stroke-width="2"/>
+                      </svg>                    
+                </div>
+              </div>
+        </div>
+
+        </div>
+        <div class="export">
+          <div class="wrapper">
+            <div class="header">
+                <p class="inspector-header">EXPORT</p>
+                <div class="fill-icons">                
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="8" y1="12.5333" x2="8" y2="4.53333" stroke="#4D4F60" stroke-width="2"/>
+                      <line x1="4" y1="8.53333" x2="12" y2="8.53333" stroke="#4D4F60" stroke-width="2"/>
+                      </svg>                    
+            </div>
+        </div>
+        <p class="export-text">Click + to add an export setting</p>
+      </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
